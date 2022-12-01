@@ -31,7 +31,7 @@ namespace ParcialDeJohnDoe.Windows
         {
             this.components = new System.ComponentModel.Container();
             this.RellenoComboBox = new System.Windows.Forms.ComboBox();
-            this.RadioTextBox = new System.Windows.Forms.TextBox();
+            this.AristaTextBox = new System.Windows.Forms.TextBox();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.btnOK = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
@@ -54,13 +54,13 @@ namespace ParcialDeJohnDoe.Windows
             this.RellenoComboBox.Size = new System.Drawing.Size(279, 21);
             this.RellenoComboBox.TabIndex = 58;
             // 
-            // RadioTextBox
+            // AristaTextBox
             // 
-            this.RadioTextBox.Location = new System.Drawing.Point(128, 29);
-            this.RadioTextBox.MaxLength = 50;
-            this.RadioTextBox.Name = "RadioTextBox";
-            this.RadioTextBox.Size = new System.Drawing.Size(279, 20);
-            this.RadioTextBox.TabIndex = 53;
+            this.AristaTextBox.Location = new System.Drawing.Point(128, 29);
+            this.AristaTextBox.MaxLength = 50;
+            this.AristaTextBox.Name = "AristaTextBox";
+            this.AristaTextBox.Size = new System.Drawing.Size(279, 20);
+            this.AristaTextBox.TabIndex = 53;
             // 
             // btnCancelar
             // 
@@ -96,9 +96,9 @@ namespace ParcialDeJohnDoe.Windows
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(27, 32);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(38, 13);
+            this.label5.Size = new System.Drawing.Size(36, 13);
             this.label5.TabIndex = 56;
-            this.label5.Text = "Radio:";
+            this.label5.Text = "Arista:";
             // 
             // groupBox1
             // 
@@ -155,7 +155,7 @@ namespace ParcialDeJohnDoe.Windows
             this.ClientSize = new System.Drawing.Size(446, 258);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.RellenoComboBox);
-            this.Controls.Add(this.RadioTextBox);
+            this.Controls.Add(this.AristaTextBox);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnOK);
             this.Controls.Add(this.label4);
@@ -175,7 +175,7 @@ namespace ParcialDeJohnDoe.Windows
         #endregion
 
         private System.Windows.Forms.ComboBox RellenoComboBox;
-        private System.Windows.Forms.TextBox RadioTextBox;
+        private System.Windows.Forms.TextBox AristaTextBox;
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.Button btnOK;
         private System.Windows.Forms.Label label4;
